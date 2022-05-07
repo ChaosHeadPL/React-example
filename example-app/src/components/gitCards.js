@@ -66,7 +66,7 @@ export class Card extends React.Component {
 
         return (
             <div className="github-profile" style={{ margin: '1erm' }}>
-                <img src={profile.avatar_url} style={{ width: '75px' }}/>
+                <img src={profile.avatar_url} style={{ width: '75px' }} alt="None"/>
                 <div className="info" style={{display: 'inline-block', marginLeft: 10}}>
                     <div className="name" style={{ fontSize: '125%'}}>{profile.name}</div>
                     <div className="company">{profile.company}</div>
